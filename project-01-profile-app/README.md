@@ -12,6 +12,9 @@ This is a simple Profile App UI built using **SwiftUI**. It uses `ZStack`, `VSta
 - Follow button
 - Profile stats and about text
 
+  <img src="https://github.com/user-attachments/assets/04f92b4d-35f6-42ea-8503-b378c6518231" alt="project-01-profile-app:screenshot" width="250"/>
+
+
 ---
 
 ## 🧪 UI Preview
