@@ -10,7 +10,7 @@ Each project is organized in its own folder and branch, with clean code, screens
 
 ## ✦ Vision
 
-As a developer exploring the Apple ecosystem, I created **Hello Swift** to:
+As a developer exploring the Apple ecosystem, I created **Swift Learning** to:
 - Master the SwiftUI framework from fundamentals to advanced concepts
 - Build a portfolio of well-structured, visually appealing iOS apps
 - Develop a strong foundation in app architecture (MVVM), animations, and native components
