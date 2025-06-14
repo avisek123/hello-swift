@@ -1,4 +1,4 @@
-# 🚀 Hello Swift
+# 🚀 Swift Learning
 
 Welcome to my Swift learning repository!  
 This repo contains small SwiftUI and iOS projects I’m building as part of my learning journey.
