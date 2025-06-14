@@ -11,6 +11,7 @@
 		A5A9B55D2DFD9D4000201552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9B55C2DFD9D4000201552 /* ContentView.swift */; };
 		A5A9B55F2DFD9D4300201552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A9B55E2DFD9D4300201552 /* Assets.xcassets */; };
 		A5A9B5632DFD9D4300201552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A9B5622DFD9D4300201552 /* Preview Assets.xcassets */; };
+		A5A9B56A2DFD9DE000201552 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9B5692DFD9DE000201552 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A5A9B55E2DFD9D4300201552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A9B5602DFD9D4300201552 /* project_02_slot_machine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = project_02_slot_machine.entitlements; sourceTree = "<group>"; };
 		A5A9B5622DFD9D4300201552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5A9B5692DFD9DE000201552 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A5A9B55E2DFD9D4300201552 /* Assets.xcassets */,
 				A5A9B5602DFD9D4300201552 /* project_02_slot_machine.entitlements */,
 				A5A9B5612DFD9D4300201552 /* Preview Content */,
+				A5A9B5692DFD9DE000201552 /* SwiftUIView.swift */,
 			);
 			path = "project-02-slot-machine";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				A5A9B55D2DFD9D4000201552 /* ContentView.swift in Sources */,
 				A5A9B55B2DFD9D4000201552 /* project_02_slot_machineApp.swift in Sources */,
+				A5A9B56A2DFD9DE000201552 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
