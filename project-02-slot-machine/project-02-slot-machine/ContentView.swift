@@ -65,6 +65,52 @@ struct ContentView: View {
                         .shadow(color: .orange, radius: 1,  y:8)
                     
                 }.frame(width: .infinity, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                VStack(spacing: 15){
+                    HStack(spacing:35){
+                        Hexagon().fill(Color.white).opacity(0.8)
+                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .overlay(
+                                Image(symbols[0]).resizable().scaledToFit()
+                                    .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .shadow(color: .gray, radius: 14, x:4, y:5)
+                            )
+                        
+                        Hexagon().fill(Color.white).opacity(0.8)
+                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .overlay(
+                                Image(symbols[0]).resizable().scaledToFit()
+                                    .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .shadow(color: .gray, radius: 14, x:4, y:5)
+                            )
+                        
+                    }
+                    Hexagon().fill(Color.white).opacity(0.8)
+                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .overlay(
+                            Image(symbols[0]).resizable().scaledToFit()
+                                .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .shadow(color: .gray, radius: 14, x:4, y:5)
+                        )
+                    HStack(spacing:35){
+                        Hexagon().fill(Color.white).opacity(0.8)
+                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .overlay(
+                                Image(symbols[0]).resizable().scaledToFit()
+                                    .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .shadow(color: .gray, radius: 14, x:4, y:5)
+                            )
+                        
+                        Hexagon().fill(Color.white).opacity(0.8)
+                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .overlay(
+                                Image(symbols[0]).resizable().scaledToFit()
+                                    .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .shadow(color: .gray, radius: 14, x:4, y:5)
+                            )
+                        
+                    }
+                    
+                }
             }
               
         }
