@@ -40,7 +40,7 @@ enum choice: Int, Identifiable {
 
 struct ContentView: View {
     
-    @State public var symbols = ["eating","haapy","love"]
+    @State public var symbols = ["eating","happy","love"]
     @State public var numbers = [0,1,2]
     @State public var count = 0
     @State private var showingAlert: choice?
@@ -70,7 +70,7 @@ struct ContentView: View {
                         Hexagon().fill(Color.white).opacity(0.8)
                             .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .overlay(
-                                Image(symbols[0]).resizable().scaledToFit()
+                                Image(symbols[numbers[0]]).resizable().scaledToFit()
                                     .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .shadow(color: .gray, radius: 14, x:4, y:5)
                             )
@@ -78,7 +78,7 @@ struct ContentView: View {
                         Hexagon().fill(Color.white).opacity(0.8)
                             .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .overlay(
-                                Image(symbols[0]).resizable().scaledToFit()
+                                Image(symbols[numbers[1]]).resizable().scaledToFit()
                                     .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .shadow(color: .gray, radius: 14, x:4, y:5)
                             )
@@ -87,7 +87,7 @@ struct ContentView: View {
                     Hexagon().fill(Color.white).opacity(0.8)
                         .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .overlay(
-                            Image(symbols[0]).resizable().scaledToFit()
+                            Image(symbols[numbers[2]]).resizable().scaledToFit()
                                 .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .shadow(color: .gray, radius: 14, x:4, y:5)
                         )
@@ -95,7 +95,7 @@ struct ContentView: View {
                         Hexagon().fill(Color.white).opacity(0.8)
                             .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .overlay(
-                                Image(symbols[0]).resizable().scaledToFit()
+                                Image(symbols[numbers[0]]).resizable().scaledToFit()
                                     .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .shadow(color: .gray, radius: 14, x:4, y:5)
                             )
@@ -103,15 +103,35 @@ struct ContentView: View {
                         Hexagon().fill(Color.white).opacity(0.8)
                             .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .overlay(
-                                Image(symbols[0]).resizable().scaledToFit()
+                                Image(symbols[numbers[1]]).resizable().scaledToFit()
                                     .frame(width: 80, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .shadow(color: .gray, radius: 14, x:4, y:5)
                             )
                         
                     }
                     
+                    
                 }
+                
+                
+                Button(action: {
+                    print("Click me")
+                },
+                       label: {
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(Color("color"))
+                        .overlay(Text("Spin")
+                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                                 
+                        )
+                        .foregroundColor(.black)
+                        .frame(width: 200, height:40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .shadow(color: .gray, radius: 5, y: 1)
+                })
             }
+            
+            
               
         }
       
